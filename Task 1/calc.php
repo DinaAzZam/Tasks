@@ -1,5 +1,5 @@
 <?php
-    if(isset($_GET['submit'])) {
+    if(isset($_GET['submit'])) { 
         $result1 = $_GET['num1'];
         $result2 = $_GET['num2'];
         $operator = $_GET['operator'];
