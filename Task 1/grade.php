@@ -38,7 +38,7 @@
                 $message = "<div class='alert alert-success'>
                     Total: $sum/250 => Percentage : {$gradePercentage}% => Grade: {$grade}
                 </div>";
-            }elseif($gradePercentage < 40) {
+            }else{
                 $grade = "F";
                 $message = "<div class='alert alert-success'>
                     Total: $sum/250 => Percentage : {$gradePercentage}% => Grade: {$grade}
